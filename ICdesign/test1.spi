@@ -1,0 +1,15 @@
+*** SPICE deck for cell test1{sch} from library noname
+*** Created on พฤ. ต.ค. 08, 2569 13:52:09
+*** Last revised on พฤ. ต.ค. 08, 2569 14:41:02
+*** Written on พฤ. ต.ค. 08, 2569 15:12:49 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+
+*** TOP LEVEL CELL: test1{sch}
+Rresnwell@1 Vout Vin 2k
+Rresnwell@2 Vout gnd 2k
+
+* Spice Code nodes in cell cell 'test1{sch}'
+vin vin 0 DC 1
+.tran 0 1
+.END
